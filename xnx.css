@@ -1,0 +1,76 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  .stripe {
+     width: 225px;
+  height: 50px;
+  }
+  #saffron {
+    background-color: #FF9933;
+  }
+  #white {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+@keyframes rotateChakra {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .ashok_chakra {
+    height: 40px;
+  width: 40px;
+    animation: rotateChakra 10s linear infinite;
+  }
+  #green {
+    background-color: #138808;
+  }
+  .message {
+    margin-top: 20px;
+  }
+
+#displayTextButton{
+/*   color:tomato; */
+ background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add some padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease-in-out;
+}
+#displayTextButton:hover{
+  background-color: #45a049; /* Darker green on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#inputText{
+  padding: 10px; /* Add some padding inside the input */
+  border: none; /* Remove default border */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for shadow change */
+  font-size: 16px;
+}
+#inputText:hover{
+  
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+#displayedText{
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+ font-family: "Lucida Handwriting", Cursive;
+}
